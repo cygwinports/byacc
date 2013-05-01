@@ -1,0 +1,14 @@
+NAME="byacc"
+VERSION=20130304
+RELEASE=1
+CATEGORY="Devel"
+SUMMARY="Berkeley Yacc"
+DESCRIPTION="Berkeley Yacc is an LALR(1) parser generator.  Berkeley Yacc has
+been made as compatible as possible with AT&T Yacc.  Berkeley Yacc can accept
+any input specification that conforms to the AT&T Yacc documentation."
+HOMEPAGE="http://invisible-island.net/byacc/"
+SRC_URI="ftp://invisible-island.net/byacc/byacc-${VERSION}.tgz"
+
+DIFF_EXCLUDES="config_h.in"
+
+CYGCONF_ARGS="--program-prefix=b"
